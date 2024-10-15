@@ -6,4 +6,4 @@ pyarrow
 textblob
 scikit-learn
 uvicorn
-
+fastapi
