@@ -5,3 +5,4 @@ numpy
 pyarrow
 textblob
 scikit-learn
+univcorn
