@@ -15,7 +15,7 @@ Rec_Juegos = pd.read_parquet('data/Rec_Juegos.parquet')
 
 @app.get("/")
 async def root():
-    return {"message": "¡Servicio en funcionamiento!"}
+    return {"Proyecto Individual 1 = Maximiliano Fernandez  "}
 
 @app.get('/developer/{desarrollador}',name= 'DEVELOPER')
 async def developer(desarrollador):
@@ -117,7 +117,7 @@ async def best_developer_year(año):
     return res
 
 
-@app.get('/developer_reviews_amalysis/{desarrolladora}',name= 'DEVELOPERREVIEWSANALYSIS')
+@app.get('/developer_reviews_analysis/{desarrolladora}',name= 'DEVELOPERREVIEWSANALYSIS')
 async def developer_reviews_analysis(desarrolladora):
     
     juego_for_des = Juegos[Juegos['developer'] == desarrolladora] #Filtramos reseñas por desarrollador
