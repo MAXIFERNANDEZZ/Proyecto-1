@@ -13,6 +13,9 @@ Items = pd.read_parquet('data/DF_Items.parquet')
 Reviews = pd.read_parquet('data/Reviews.parquet')
 Rec_Juegos = pd.read_parquet('data/Rec_Juegos.parquet')
 
+@app.get("/")
+async def root():
+    return {"message": "¡Servicio en funcionamiento!"}
 
 @app.get('/developer/{desarrollador}',name= 'DEVELOPER')
 async def developer(desarrollador):
