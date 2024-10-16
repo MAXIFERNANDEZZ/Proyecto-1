@@ -44,8 +44,7 @@ En el proceso de ETL se generaron los siguientes archivos [ETL_STEAM](ETL_Juegos
 ## EDA
 
 Una vez terminado el ETL  se continuó con el EDA para investigar las relaciones entra las variables, ver outliers, anomalias, patrones, etc. 
-En este proceso se generó el siguiente archivo [Analisis Exploratorio](EDA.ipynb)
-Dentro de este EDA tambien podemos encotrar el sistema de recomendación item - item
+Lamentablemente por un error mio perdí todo lo que estaba hecho en el EDA por lo que no voy a poder mostrar lo que hice
 
 ## Desarrollo de la API
 
