@@ -8,10 +8,10 @@ from sklearn.metrics.pairwise import cosine_similarity
 app = FastAPI()
 
 #Traemos las tablas necesarias
-Juegos= pd.read_parquet(r'C:\Users\maxyf\OneDrive\Escritorio\Proyecto 1\data\DF_Juegos.parquet')
-Items = pd.read_parquet(r'C:\Users\maxyf\OneDrive\Escritorio\Proyecto 1\data\DF_Items.parquet')
-Reviews = pd.read_parquet(r'C:\Users\maxyf\OneDrive\Escritorio\Proyecto 1\data\Reviews.parquet')
-Rec_Juegos = pd.read_parquet(r'C:\Users\maxyf\OneDrive\Escritorio\Proyecto 1\data\Rec_Juegos.parquet')
+Juegos= pd.read_parquet('data/DF_Juegos.parquet')
+Items = pd.read_parquet('data/DF_Items.parquet')
+Reviews = pd.read_parquet('data/Reviews.parquet')
+Rec_Juegos = pd.read_parquet('data/Rec_Juegos.parquet')
 
 
 @app.get('/developer/{desarrollador}',name= 'DEVELOPER')
@@ -152,6 +152,3 @@ async def recomendacion_juego(id):
 
     return reco
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
