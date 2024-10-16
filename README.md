@@ -49,6 +49,8 @@ Lamentablemente por un error mio perdí todo lo que estaba hecho en el EDA por l
 ## Desarrollo de la API
 
 Para el desarrollo de la API se utiliza FastAPI, creando las siguientes funciones:
+
+No logre que funcione
 + def **developer( *`desarrollador` : str* )**:
     `Cantidad` de items y `porcentaje` de contenido Free por año según empresa desarrolladora. 
 Ejemplo de retorno:
@@ -70,7 +72,8 @@ Ejemplo de retorno: {"Usuario X" : us213ndjss09sdf, "Dinero gastado": 200 USD, "
 
 Ejemplo de retorno: {"Usuario con más horas jugadas para Género X" : us213ndjss09sdf,
 			     "Horas jugadas":[{Año: 2013, Horas: 203}, {Año: 2012, Horas: 100}, {Año: 2011, Horas: 23}]}
-	
+
+ No logre que funcione
 + def **best_developer_year( *`año` : int* )**:
    Devuelve el top 3 de desarrolladores con juegos MÁS recomendados por usuarios para el año dado. (reviews.recommend = True y comentarios positivos)
   
