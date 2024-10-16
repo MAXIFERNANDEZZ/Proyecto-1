@@ -98,7 +98,7 @@ Para el deploy de la API se seleccionó la plataforma Render que es una nube uni
 * Se genera el link donde queda corriendo [link](https://proyecto-individual-maxi-1.onrender.com)
 
 ## Video
-Demostración y funcionamiento de la API 
+Demostración y funcionamiento de la API [link](https://youtu.be/JOHpoVytzfo)
 
 
 
