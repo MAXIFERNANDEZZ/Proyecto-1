@@ -1,3 +1,5 @@
+uvicorn
+fastapi
 pandas
 matplotlib
 seaborn
@@ -5,5 +7,3 @@ numpy
 pyarrow
 textblob
 scikit-learn
-uvicorn
-fastapi
